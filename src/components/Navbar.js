@@ -34,7 +34,7 @@ function Navbar() {
             <div className='navbar'>
                 <div className='navbar-container container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <MdFingerprint className='navbar-icon' />
+                        {/* <MdFingerprint className='navbar-icon' /> */}
                         AuctionHaeus
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -58,15 +58,15 @@ function Navbar() {
                         </li>
                         <li className='nav-btn'>
                             {button ? (
-                                <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+                                <Link to= {{ pathname:'https://auctionhaeus.hibid.com' }} target='_blank' className='btn-link' onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline'>BID NOW</Button>
                                 </Link>
                             ): (
-                                <Link to='/sign-up' className='btn-link'>
+                                <Link to= {{ pathname: 'https://auctionhaeus.hibid.com' }} target='_blank' className='btn-link'>
                                     <Button buttonStyle='btn--outline'
                                         buttonSize='btn--mobile'
                                         onClick={closeMobileMenu}
-                                        >SIGN UP</Button>
+                                        >BID NOW</Button>
                                 </Link>
                             )}
                         </li>
