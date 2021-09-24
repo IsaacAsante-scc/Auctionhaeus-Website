@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { MdFingerprint } from 'react-icons/md'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Button } from './Button'
 import './Navbar.css';
@@ -47,12 +46,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/FAQ' className='nav-links' onClick={closeMobileMenu}>
                                 FAQ
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/Contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact Us
                             </Link>
                         </li>
