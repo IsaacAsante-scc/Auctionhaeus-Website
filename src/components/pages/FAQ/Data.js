@@ -23,3 +23,18 @@ export const FaqObjTwo = {
     img: 'images/AuctionLogo.png',
     alt: 'Auction Haeus and Liquidation Centre'
 };
+
+export const FaqData = [
+    {
+        question: 'Question for question 1 goe here. fjkdfssdfk dsfksf sjfsdf sjebwj wjrhd dsdfjk sdk?',
+        answer: 'Answer for question 1 goes here. ajadj fjbkf ajdbjd afjalj  adnasdn ajdnajsd aadl djadl adjadlad adsld ajhdl dajsdl?'
+    },
+    {
+        question: 'Question for question 1 goe here. fjkdfssdfk dsfksf sjfsdf sjebwj wjrhd dsdfjk sdk?',
+        answer: 'Answer for question 1 goes here. ajadj fjbkf ajdbjd afjalj  adnasdn ajdnajsd aadl djadl adjadlad adsld ajhdl dajsdl?'
+    },
+    {
+        question: 'Question for question 1 goe here. fjkdfssdfk dsfksf sjfsdf sjebwj wjrhd dsdfjk sdk?',
+        answer: 'Answer for question 1 goes here. ajadj fjbkf ajdbjd afjalj  adnasdn ajdnajsd aadl djadl adjadlad adsld ajhdl dajsdl?'
+    }
+];
