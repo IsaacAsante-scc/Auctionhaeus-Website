@@ -9,8 +9,7 @@ import './Faq.css';
 function Faq() {
     return (
         <>
-            <Accordian />  
-            <HeroSectionTwo {...FaqObjTwo} />  
+            <Accordian />    
         </>
     )
 };

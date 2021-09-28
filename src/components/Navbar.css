@@ -34,10 +34,14 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    font-family: 'Antic Slab';
+    position: relative;
   }
   
   .navbar-icon {
-    margin-right: 0.5rem;
+    display: flex;
+    max-width: 60px;
+    max-height: 60px;
   }
   
   .nav-menu {

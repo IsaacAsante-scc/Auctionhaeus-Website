@@ -15,7 +15,7 @@ justify-content: center;
 position: relative;
 height: 50vh;
 background: #fff;
-margin-bottom: 50px;
+margin-bottom: 60px;
 
 @media screen and (max-width: 991px) {
     margin-bottom: 85px;
@@ -72,8 +72,19 @@ p {
 `;
 
 const Support = styled.div`
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+
+    margin-bottom: 75px;
+    margin-top: 75px;
 
 `;
+
+
 
 
 const Accordian = () => {
@@ -112,10 +123,8 @@ const Accordian = () => {
                 
             </AccordianSection>
             <Support>
-                <h3>Can't find an answer email us</h3>
-                <Link to={{ mailto: 'auctionhaeus@outlook.com' }} target="_blank">
-                    <Button buttonSize='btn--wide' buttonColor='blue'>Email Us</Button>
-                </Link>
+                <h3>Can't find your answer email us!</h3>
+                <a href="mailto:auctionhaeus@outlook.com">auctionhaeus@outlook.com</a>
             </Support>
 
         </IconContext.Provider>

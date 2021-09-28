@@ -5,6 +5,8 @@
 
 .home__hero-row {
     align-items: center;
+
+    max-height: fit-content;
 }
 
 .row {
@@ -25,8 +27,29 @@
     flex-basis: 50%;
 }
 
+.col2 {
+    margin: auto;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.center {
+    margin: auto;
+}
+
 .home__hero-text-wrapper {
     max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.home__hero-text-wrapper2 {
+    margin: auto;
+    max-width: 650px;
     padding-top: 0;
     padding-bottom: 60px;
 }
@@ -62,6 +85,14 @@
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Antic Slab';}
+
+.home__hero-subtitle2 {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
 }
 
 .home__hero-img-wrapper {
