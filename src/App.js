@@ -7,6 +7,8 @@ import Faq from './components/pages/FAQ/Faq';
 import Footer from './components/pages/Footer/Footer';
 import Home from './components/pages/HomePage/Home';
 
+
+
 function App() {
   return (
     <Router>
