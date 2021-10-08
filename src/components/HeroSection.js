@@ -43,14 +43,12 @@ function HeroSectionTwo({
         >
             <div className='container'>
                 <div  className='center'>
-                    <div style={{ display:'flex', flexDirection: 'row'}}>
-                        <div className='col2'>
+                    <div style={{ textAlign:'center'}}>
                             <div className='home__hero-text-wrapper'>
                                 <div className='top-line'>{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                                 <p className={lightTextDesc ? 'home__hero-subtitle2' : 'home__hero-subtitle dark'}>{description}</p>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>

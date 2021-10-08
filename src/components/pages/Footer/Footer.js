@@ -2,9 +2,14 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
+import CustomForm from './Newsletter.js';
 import {
   FaFacebook
 } from 'react-icons/fa';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
+
+const MAILCHIMP_URL = process.env.REACT_APP_MAILCHIMP_URL;
+
 
 
 function Footer() {
@@ -18,14 +23,8 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+          <form action={ MAILCHIMP_URL } method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <Button buttonStyle='btn--outline'>Subscribe To Auction Haeus</Button>
           </form>
         </div>
       </section>

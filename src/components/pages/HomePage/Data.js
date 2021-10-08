@@ -36,3 +36,8 @@ export const HomeObjThree = {
     img: 'images/FacebookLogo.png',
     alt: 'Auction Haeus and Liquidation Centre'
 };
+
+export const AboutContent = {
+    title: 'About AuctionHaeus',
+    subTitle:'Auctionhaeus are a Windsor based licuidation centre that creates auctions weekly out of Windsor, Ontario, with both shipping and a pick up option. Auctions consist of retailer returns, overstock, and de-stocked items from many major retailers.'
+};

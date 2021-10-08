@@ -1,7 +1,10 @@
 import React from 'react';
 import HeroSection, { HeroSectionTwo } from '../../HeroSection';
-import {ContactObjOne, ContactObjTwo} from './Data';
+import {ContactObjOne, ContactObjTwo, ContactContent} from './Data';
 import MapSection from '../../Map/Map';
+import ContentSection from '../../ContentSection';
+
+
 
 const location = {
     address: '3419 Walker RoadWindsor, ON, Canada',
@@ -12,9 +15,8 @@ const location = {
 function Contact() {
     return (
         <>
-            <MapSection location={location} zoomLevel={17} />
-            <HeroSection {...ContactObjOne} />
-            <HeroSectionTwo {...ContactObjTwo} />     
+            <ContentSection {...ContactContent} />
+            <MapSection location={location} zoomLevel={17} />     
         </>
     )
 };
