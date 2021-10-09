@@ -17,7 +17,7 @@ function HeroSection({
                                 <div className='top-line'>{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                                 <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
-                                <Link to={{ pathname: 'https://auctionhaeus.hibid.com/lots' }} target="_blank">
+                                <Link to={{ pathname: 'https://auctionhaeus.hibid.com/lots' }} rel="noopener noreferrer" target='_blank'>
                                     <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                                 </Link>
                             </div>
@@ -70,7 +70,7 @@ function HeroSectionThree({
                                 <div className='top-line'>{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                                 <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
-                                <Link to={{ pathname: 'https://www.facebook.com/AHLCCanada/' }} target="_blank">
+                                <Link to={{ pathname: 'https://www.facebook.com/AHLCCanada/' }} rel="noopener noreferrer" target="_blank">
                                     <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                                 </Link>
                             </div>

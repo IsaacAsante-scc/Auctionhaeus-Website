@@ -4,22 +4,9 @@ export const HomeObjOne = {
     lightTextDesc: true,
     topLine: 'Weekly Auctions Every Sunday',
     headline: 'Online Auction For Retailer Returns, Overstock, and De-stocked Items',
-    description: 'Auctions are weekly out of Windsor, Ontario, with both shipping and pick up option from Windsor, Ontario. Pick-up is available once the purchase invoice and pick-up details have been sent by e-mail and a pick-up timeslot is scheduled by the customer through our online scheduling software. Pick-up your winnings at the following address.',
+    description: 'We liquidate hundreds and hundreds of merchandise every week at rock bottom prices! Auctions are weekly with both shipping and pick up option from Windsor, Ontario. We do our best to check the condition and rate it and verify parts/overall functionality. Many items are brand new, demo models or very slightly used.',
     buttonLabel: 'Start Bidding Now',
     imgStart: '',
-    img: 'images/AuctionLogo.png',
-    alt: 'Auction Haeus and Liquidation Centre'
-};
-
-export const HomeObjTwo = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: '',
-    headline: 'About AHLC Headline here',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Lectus proin nibh nisl condimentum id venenatis a condimentum.',
-    buttonLabel: '',
-    imgStart: 'start',
     img: 'images/AuctionLogo.png',
     alt: 'Auction Haeus and Liquidation Centre'
 };
@@ -30,7 +17,7 @@ export const HomeObjThree = {
     lightTextDesc: false,
     topLine: '',
     headline: 'Find Cash and Carry Items on Facebook',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Lectus proin nibh nisl condimentum id venenatis a condimentum.',
+    description: 'Find exclusive items and products listed on our Facebook for cash and carry sales. We also post sneak peeks of upcoming auctions, updates, special deals, news, auction infomation and more.',
     buttonLabel: 'View Posts',
     imgStart: 'start',
     img: 'images/FacebookLogo.png',
@@ -38,6 +25,6 @@ export const HomeObjThree = {
 };
 
 export const AboutContent = {
-    title: 'About AuctionHaeus',
-    subTitle:'Auctionhaeus are a Windsor based licuidation centre that creates auctions weekly out of Windsor, Ontario, with both shipping and a pick up option. Auctions consist of retailer returns, overstock, and de-stocked items from many major retailers.'
+    title: 'About Auction Haeus',
+    subTitle:'Founded in 2020 Auction Haeus are a family run, Windsor based liquidation centre that creates auctions weekly out of Windsor, Ontario. We are the only auction house in Windsor Essex County specializing in undeliverable freight, discontinued, and customer returns for some of the worlds largest retailers! Customer satisfaction is very important to us! We are committed to being 100% transparent with you, and we make every effort to ensure you get exactly what you are expecting.'
 };

@@ -2,14 +2,12 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
-import CustomForm from './Newsletter.js';
 import {
   FaFacebook
 } from 'react-icons/fa';
-import MailchimpSubscribe from 'react-mailchimp-subscribe';
+
 
 const MAILCHIMP_URL = process.env.REACT_APP_MAILCHIMP_URL;
-
 
 
 function Footer() {
@@ -23,7 +21,7 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form action={ MAILCHIMP_URL } method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action={ MAILCHIMP_URL } rel="noopener noreferrer" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <Button buttonStyle='btn--outline'>Subscribe To Auction Haeus</Button>
           </form>
         </div>
@@ -31,7 +29,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/' className='social-logo' rel="noopener noreferrer">
               Auction Haeus
             </Link>
           </div>
@@ -40,17 +38,11 @@ function Footer() {
             <Link
               className='social-icon-link'
               to= {{ pathname: 'https://www.facebook.com/AHLCCanada/' }}
+              rel="noopener noreferrer"
               target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
             </Link>
           </div>
         </div>

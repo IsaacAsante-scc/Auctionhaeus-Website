@@ -1,9 +1,10 @@
-.map-h2 {
-    text-transform: uppercase;
+.map-h2, .map-h2:link, .map-h2:visited {
     font-size: 1rem;
     padding: 20px;
     padding-left: 10px;
     text-align: center;
+    color: #f00946;
+    cursor: auto;
   }
   
   .google-map {

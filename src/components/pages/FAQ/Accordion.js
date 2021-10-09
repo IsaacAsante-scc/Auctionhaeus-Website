@@ -3,8 +3,7 @@ import { FaqData } from './Data';
 import styled from 'styled-components';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
-import { Button } from './Button.js';
-import { Link } from 'react-router-dom';
+
 
 
 const AccordianSection = styled.div`
@@ -15,10 +14,10 @@ justify-content: center;
 position: relative;
 height: 50vh;
 background: #fff;
-margin-bottom: 60px;
+margin-bottom: 155px;
 
 @media screen and (max-width: 991px) {
-    margin-bottom: 85px;
+    margin-bottom: 155px;
 }
 
 @media screen and (max-width: 768px) {
@@ -27,6 +26,7 @@ margin-bottom: 60px;
 
 const Container = styled.div`
 position: absolute;
+max-width: 1000px;
 top: 30%;
 box-shadow: 5px 10px 45px 1px rgba(153, 153, 153, 0.3);
 `;
@@ -52,22 +52,20 @@ span {
 `;
 
 const Dropdown = styled.div`
-background: #DDDDDD;
-color: #BB2205;
-overflow: scroll;
-width: 100%;
+background: #fff;
+max-width: 1250px;
 height: 100%;
-display: flex;
-flex-direction: column;
+display: block;
 justify-content: center;
 align-items: center;
-border-bottom: 1px solid #f00946;
-border-top: 1px solid #f00946;
+border-bottom: 2px solid #f00946;
+border-top: 2px solid #f00946;
+align: center;
+
 
 
 p {
-    font-size: 1.75rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans serif;
+    font-size: 1.5rem;
 }
 `;
 
@@ -81,6 +79,14 @@ const Support = styled.div`
 
     margin-bottom: 75px;
     margin-top: 75px;
+
+    @media screen and (max-width: 1216px) {
+        margin-top: 300px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        margin-top: 500px;
+    }
 
 `;
 
@@ -113,7 +119,9 @@ const Accordian = () => {
 
                             
                             <Dropdown>
-                                <p>{item.answer}</p>  
+                                <div>
+                                    <p>{item.answer}</p>  
+                                </div>
                             </Dropdown>  
                             ) : null}
                             </>
@@ -124,7 +132,7 @@ const Accordian = () => {
             </AccordianSection>
             <Support>
                 <h3>Can't find your answer email us!</h3>
-                <a href="mailto:auctionhaeus@outlook.com">auctionhaeus@outlook.com</a>
+                <a href="mailto:auctionhaeus@outlook.com" rel="noopener noreferrer">auctionhaeus@outlook.com</a>
             </Support>
 
         </IconContext.Provider>

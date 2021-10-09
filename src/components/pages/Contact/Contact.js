@@ -1,8 +1,9 @@
 import React from 'react';
-import HeroSection, { HeroSectionTwo } from '../../HeroSection';
-import {ContactObjOne, ContactObjTwo, ContactContent} from './Data';
+import { ContactContent } from './Data';
 import MapSection from '../../Map/Map';
 import ContentSection from '../../ContentSection';
+import '../../ContentSection.css'
+
 
 
 
