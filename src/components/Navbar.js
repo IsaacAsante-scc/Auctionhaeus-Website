@@ -5,6 +5,8 @@ import { Button } from './Button'
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
 
+
+/* Navbar Function */
 function Navbar() {
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true);

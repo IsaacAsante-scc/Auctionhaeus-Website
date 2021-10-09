@@ -26,6 +26,7 @@
     flex-basis: 50%;
 }
 
+/*Column of HeroSectionTwo function */
 .col2 {
     margin: auto;
     margin-bottom: 15px;
@@ -46,6 +47,7 @@
     padding-bottom: 60px;
 }
 
+/* Text wrapper of HeroSectionTwo function */
 .home__hero-text-wrapper2 {
     margin: auto;
     max-width: 650px;
@@ -86,6 +88,7 @@
     line-height: 24px;
 }
 
+/* Subtitle of HeroSectionTwo function */
 .home__hero-subtitle2 {
     max-width: 440px;
     margin-bottom: 35px;
@@ -111,6 +114,7 @@ img {
     display: inline-block;
 }
 
+/* Adjust for screen size */
 @media screen and (max-width: 991px) {
     .container {
         padding-left: 30px;

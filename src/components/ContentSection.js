@@ -1,6 +1,7 @@
 import React from 'react'
 import './ContentSection.css'
 
+/* Content Section Function */
 function ContentSection({
     title, subTitle
 }) {

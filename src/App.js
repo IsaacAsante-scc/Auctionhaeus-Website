@@ -8,6 +8,8 @@ import Footer from './components/pages/Footer/Footer';
 import Home from './components/pages/HomePage/Home';
 
 
+/* Created By Isaac Asante 2021 - Auction Haeus and Liquidation Centre*/
+
 
 function App() {
   return (

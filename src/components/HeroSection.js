@@ -3,6 +3,9 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
  
+
+/* Hero Section Function */
+/* Inculdes Heading, Title, Text and Button */
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
 }) {
@@ -35,6 +38,8 @@ function HeroSection({
 }
 
 
+/* Hero Section Two Function */
+/* Inculdes Title and Text */
 function HeroSectionTwo({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
 }) {
@@ -56,6 +61,9 @@ function HeroSectionTwo({
         </>);
 }
 
+
+/* Hero Section Three Function */
+/* Inculdes Heading, Title, Text and Button */
 function HeroSectionThree({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
 }) {

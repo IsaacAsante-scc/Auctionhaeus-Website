@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 
 
-
+/* CSS/Style For Accordian Element */
 const AccordianSection = styled.div`
 display: flex;
 flex-direction: column;
@@ -92,7 +92,7 @@ const Support = styled.div`
 
 
 
-
+/* Accordian Element */
 const Accordian = () => {
     const [clicked, setClicked] = useState(false);
     const toggle = index => {
