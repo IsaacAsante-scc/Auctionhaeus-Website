@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #393E46;
+    background-color: #52575D;
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -158,3 +158,19 @@
       flex-direction: column;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .footer-subscription-heading {
+      margin-bottom: 24px;
+      font-size: 15px;
+    }
+    
+    .footer-subscription-text {
+      margin-bottom: 24px;
+      font-size: 13px;
+    }
+
+    .footer-container {
+      padding: 2rem 0 1rem 0;
+    }
+}

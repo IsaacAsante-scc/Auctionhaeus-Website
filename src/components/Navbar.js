@@ -34,10 +34,12 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff'}}>
             <div className='navbar'>
                 <div className='navbar-container container'>
+                    <div className='auct'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         <img className='navbar-icon' alt='Auction Haeus and Liquidation Centre' src={'images/AuctionLogoIcon.png'} />
-                        Auction Haeus
+                        Auction Haeus & Liquidation Centre
                     </Link>
+                    </div>
                     <div className='menu-icon' onClick={handleClick}>
                         {click ? <FaTimes/> : <FaBars />}
                     </div>
@@ -59,11 +61,11 @@ function Navbar() {
                         </li>
                         <li className='nav-btn'>
                             {button ? (
-                                <Link to= {{ pathname:'https://auctionhaeus.hibid.com/lots' }} rel='noopener' target='_blank' className='btn-link' onClick={closeMobileMenu}>
+                                <Link to= {{ pathname:'https://auctionhaeus.hibid.com/' }} rel='noopener' target='_blank' className='btn-link' onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline'>BID NOW</Button>
                                 </Link>
                             ): (
-                                <Link to= {{ pathname: 'https://auctionhaeus.hibid.com/lots' }} rel='noopener' target='_blank' className='btn-link'>
+                                <Link to= {{ pathname: 'https://auctionhaeus.hibid.com/' }} rel='noopener' target='_blank' className='btn-link'>
                                     <Button buttonStyle='btn--outline'
                                         buttonSize='btn--mobile'
                                         onClick={closeMobileMenu}

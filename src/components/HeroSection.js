@@ -20,7 +20,7 @@ function HeroSection({
                                 <div className='top-line'>{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                                 <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
-                                <Link to={{ pathname: 'https://auctionhaeus.hibid.com/lots' }} rel="noopener noreferrer" target='_blank'>
+                                <Link to={{ pathname: 'https://auctionhaeus.hibid.com/' }} rel="noopener noreferrer" target='_blank'>
                                     <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                                 </Link>
                             </div>

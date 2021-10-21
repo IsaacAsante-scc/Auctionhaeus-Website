@@ -1,6 +1,6 @@
 .contentSection {
-    background-color: #393E46;
-    padding: 100px 0;
+    background-color: #52575D;
+    padding: 50px 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,3 +33,22 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .contentSection {
+        padding: 30px 0;
+    }
+
+    .subTitle {
+        max-width: 440px;
+        margin-bottom: 35px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .contentTitle {
+        margin-bottom: 24px;
+        font-size: 30px;
+        line-height: 1.1;
+        font-weight: 600;
+    }
+}

@@ -30,7 +30,7 @@ export const FaqData = [
         answer: '‣ Auctions will begin soft close at 6:30 PM on the corresponding Sunday. The items will then begin to hard close staggered at 15 second intervals for about the next two hours.'
     },
     {
-        question: 'What Are Item Condition Categories And What Do They Mean?',
+        question: 'What Are Item Condition Categories And What They Mean?',
         answer: '‣ Many items are brand new, demo models or slightly used, however we do not guarantee that all items are perfect. The condition categories we go by are - "RETAIL: Item is brand new and is considered retail grade. Please note that the item inside could be retail ready, but if the packaging has minor imperfections we will do our best to declare those." -  "NEW: Item is in new condition, has all of its parts and has no signs of use. The item may or may not have been taken out of its original box. The item may or may not have been handled or been out for retailer display." - "DEMO (LIKE NEW): Item may or may not have been used. It may or may not have small marks or dust particles from being touched or handled. It may or may not have its original box. If it has been used, then the outside is most likely in "like new" condition (at the very least it is in "excellent used condition")." - "USED: Used denotes that the item functions as it is intended to but it shows that it has been under long term use. Any parts that are missing will be declared to the best of our knowledge. It could have signs of wear and likely has been very gently used. Descriptions will be provided if we have notes and to the best of our ability".'
     },
     {

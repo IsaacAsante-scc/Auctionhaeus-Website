@@ -32,13 +32,13 @@ box-shadow: 5px 10px 45px 1px rgba(153, 153, 153, 0.3);
 `;
 
 const Wrap = styled.div`
-background: #393E46;
+background: #52575D;
 color: #fff;
 display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-text-align: center;
+text-align: left;
 cursor: pointer;
 
 h1 {
@@ -49,6 +49,12 @@ h1 {
 span {
     margin-right: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+}
 `;
 
 const Dropdown = styled.div`
@@ -58,8 +64,8 @@ height: 100%;
 display: block;
 justify-content: center;
 align-items: center;
-border-bottom: 2px solid #f00946;
-border-top: 2px solid #f00946;
+border-bottom: 4px solid #f00946;
+border-top: 4px solid #f00946;
 align: center;
 
 
@@ -67,13 +73,19 @@ align: center;
 p {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 0.8rem;
+    }
+}
 `;
 
 const Support = styled.div`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     text-align: center;
     font-size: 1.5rem;
 
@@ -85,7 +97,8 @@ const Support = styled.div`
     }
     
     @media screen and (max-width: 768px) {
-        margin-top: 500px;
+        margin-top: 200px;
+        font-size: 1rem;
     }
 
 `;
