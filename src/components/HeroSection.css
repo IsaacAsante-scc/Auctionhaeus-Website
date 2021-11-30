@@ -3,6 +3,12 @@
     padding: 70px 0;
 }
 
+.btnDivider {
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
 .home__hero-row {
     align-items: center;
     max-height: fit-content;
@@ -114,11 +120,31 @@ img {
     display: inline-block;
 }
 
+@media screen and (max-width: 1250px) {
+    .facebookBtn {
+        flex-direction: column;
+    }
+    
+    .btnDivider {
+        width: 350px;
+        height:1px;
+    }
+}
+
 /* Adjust for screen size */
 @media screen and (max-width: 991px) {
     .container {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .facebookBtn {
+        flex-direction: column;
+    }
+
+    .btnDivider {
+        width: 300px;
+        height:1px;
     }
 }
 
@@ -149,5 +175,10 @@ img {
         font-size: 30px;
         line-height: 1.1;
         font-weight: 600;
+    }
+
+    .btnDivider {
+        width:5px;
+        height:5px;
     }
 }
