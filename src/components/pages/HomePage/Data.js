@@ -18,7 +18,8 @@ export const HomeObjThree = {
     topLine: '',
     headline: 'Find Cash and Carry Items on Facebook',
     description: 'Find exclusive items and products listed on our Facebook for cash and carry sales. We also post sneak peeks of upcoming auctions, updates, special deals, news, auction infomation and more.',
-    buttonLabel: 'View Posts',
+    buttonLabel: 'View Marketplace',
+    buttonLabel2: 'Visit Facebook',
     imgStart: 'start',
     img: 'images/FacebookLogo.png',
     alt: 'Auction Haeus and Liquidation Centre'
