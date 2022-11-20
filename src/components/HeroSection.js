@@ -83,7 +83,7 @@ function HeroSectionThree({
                                     <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                                 </Link>
                                 <div className='btnDivider' />
-                                <Link to={{ pathname: 'https://www.facebook.com/marketplace/profile/100058448917243/?ref=share_attachment' }} rel="noopener noreferrer" target="_blank">
+                                <Link to={{ pathname: 'https://www.facebook.com/AHLCCanada/' }} rel="noopener noreferrer" target="_blank">
                                     <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel2}</Button>
                                 </Link>
                                 </div>
